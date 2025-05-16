@@ -1,5 +1,5 @@
 // Lista de mensajes románticos que aparecerán en burbujas
-const message = [
+const messages = [
     "Te amo muchísimo ❤️",
     "Gracias por estar en mi vida 🌟",
     "Eres mi persona favorita 💕",
@@ -42,8 +42,8 @@ function createTextBubble() {
     bubble.innerText = messages[Math.floor(Math.random() * messages.length)];
 
     // Calculamos una posición aleatoria dentro de la pantalla (entre 10% y 90%)
-    const left = Math.random() * 70 + 20;
-    const top = Math.random() * 70 + 20;
+    const left = Math.random() * 80 + 10;
+    const top = Math.random() * 80 + 10;
 
     // Establecemos la posición absoluta y aplicamos las coordenadas calculadas
     bubble.style.position = "absolute";
