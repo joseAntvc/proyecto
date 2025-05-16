@@ -139,7 +139,7 @@ body {
 .charming-text {
     position: absolute;
     font-size: 18px;
-    font-family: 'Cursive', sans-serif;
+    font-family: 'Dancing Script', cursive, sans-serif;
     color: #d63384;
     animation: fadeInText 6s ease-in-out infinite;
     z-index: 1;
@@ -320,7 +320,7 @@ body {
 .text-bubble {
     position: absolute;
     font-size: 18px;
-    font-family: 'Cursive', sans-serif;
+    font-family: 'Dancing Script', cursive, sans-serif;
     color: #d63384;
     background-color: rgba(255, 255, 255, 0.7);
     padding: 10px 20px;
